@@ -1,6 +1,31 @@
 #include <stdio.h>
 
 /**
+ *numLength - returns the lenth of an integer
+ *@num : number argument
+ *
+ *Return: number of digits 1 if 0
+ */
+int numLength(int num)
+{
+	int length = 0;
+
+	if (!num)
+	{
+		return (1);
+	}
+
+	while (num)
+	{
+		num = num / 10;
+		length += 1;
+	}
+
+	return (length);
+}
+
+
+/**
  * main - prints the first 98 fibonaci sequences, starting with 1 and 2
  *
  * Return: 0
