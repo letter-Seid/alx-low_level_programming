@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <stdlib.h>
-
 /**
  * main - Find the smallest number of coins to make an amount of change
  * @argc: Arg count
@@ -12,7 +11,6 @@
 int main(int argc, char *argv[])
 {
 	int cents, coins = 0;
-
 	if (argc == 2)
 	{
 		cents = atoi(*(argv + 1));
