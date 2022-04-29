@@ -9,8 +9,8 @@
  * Return: 1 on error, 0 for success
  */
 int main(int argc, char *argv[])
-{
-	int cents, coins = 0;
+{int cents, coins = 0;
+
 	if (argc == 2)
 	{
 		cents = atoi(*(argv + 1));
